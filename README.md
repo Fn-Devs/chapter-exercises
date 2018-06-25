@@ -9,23 +9,12 @@ This repo will have a `directory` for each chapter:
 --- chapterTwo/
 ```
 
-A `README.md` with the exercises:
+A `README.md` within the directories containing the exercises:
 
 ```
 --- chapterOne/
     --- README.md
 --- chapterTwo/
-    --- README.md
-```
-
-And an empty `directory` for your solutions:
-
-```
---- chapterOne/
-    --- mySolutions/
-    --- README.md
---- chapterTwo/
-    --- mySolutions/
     --- README.md
 ```
 
@@ -33,7 +22,7 @@ And an empty `directory` for your solutions:
 
 1. Pull down the repo locally: `git clone git@github.com:Fn-Devs/chapter-exercises.git`
 2. Create a branch with your name like so: `git checkout -b <your-name>s-solutions`
-3. Go into the `mySolutions` directory for the chapter you're adding your solutions to: `cd chapterOne/mysolutions`
+3. `cd` into the chapter directory you're adding your solutions to: `cd chapterOne`
 4. Create a file with your Haskell solution(s) (you can either create a single file or multiple): `touch exerciseOne.hs`
 5. Write your Haskell code for the solution - feel free to adds explanatory comments!
 6. `git add exerciseOne.hs`
