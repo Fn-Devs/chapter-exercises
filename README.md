@@ -24,9 +24,9 @@ A `README.md` within the directories containing the exercises:
 2. Create a branch with your name like so: `git checkout -b <your-name>s-solutions`
 3. `cd` into the chapter directory you're adding your solutions to: `cd chapterOne`
 4. Create a file with your Haskell solution(s) (you can either create a single file or multiple): `touch exerciseOne.hs`
-5. Write your Haskell code for the solution - feel free to adds explanatory comments!
+5. Write your Haskell code for the solution - feel free to add explanatory comments!
 6. `git add exerciseOne.hs`
-7. `git commit -m "My attempt at solving the exercises"`
+7. `git commit -m "My attempt at solving the first exercise"`
 8. `push` your branch up to the repo under your branch name: `git push origin <your-name>s-solutions`
 9. Browse through other people's solutions and discuss how/why people solved the problems the way they did
 10. Eventually, a "correct" way to solve the exercise will be decided, and will be merged into the `master` branch - maybe it will be your branch!
