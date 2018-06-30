@@ -12,13 +12,9 @@ n = a `div` length xs
 -- Exercise Four
 getLast xs = xs !! (length xs -1)
 
-getLastV2 xs = head a
-                where
-                    a = reverse xs
+getLastV2 xs = head (reverse xs)
 
-getLastV3 xs = drop a xs
-                    where
-                        a = (length xs - 1)
+getLastV3 xs = head (drop (length xs -1) xs)
 
 -- Exercise Five
 removeLast xs = reverse (drop 1 a)
